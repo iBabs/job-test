@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+    width: 100%;
+    left: 10;
+    right: 10;
+    height: min-content;
+
+
+}
+
+.headcontent {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    height: 6em;
+    padding: 0 10px;
+    border-radius: 0 0px 5px 5px;
+    border-bottom: solid 1px whitesmoke;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 400;
+    margin-right: 7px;
+    height: 100%;
+    padding: 1.5em 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.section-1 {
+    height: 100vh;
+    background-color: black;
+    margin-top: 7em;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    color: rgb(103, 103, 104);
+}
+
+.active {
+    border-bottom: white solid 3px;
+}
+
+.section-2, .section-3, .section-4 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.name h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.ib {
+    height: 500px;
+    border-radius: 4px;
+}
+
+.edu {
+    padding: 10px;
+    max-width: 500px;
+}
+
+.content {
+    padding: 0 5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-2 h1 {
+    margin-top: 20px;
+    margin-left: 5em;
+}
+
+.caru img {
+
+    height: 200px;
+    width: 200px;
+    margin: 0 15px;
+}
+
+.caru {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-color: purple brown;
+    scrollbar-gutter: stable;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.caru::-webkit-scrollbar {
+    width: 5px;
+}
+
+.caru::-webkit-scrollbar-track {
+    background-color: darkgrey;
+}
+
+.caru::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: rgb(224, 199, 153);
+    transition: all 0.4s ease-in-out;
+}
+
+.caru::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(245, 237, 212);
+}
+
+.work {
+    margin: 15px 0;
+}
+
+.work ul li {
+    margin: 10px 0;
+}
+
+.section-3, .section-4 {
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    min-height: 200px;
+    min-width: 360px;
+    background: black;
+    color: white;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 3px 15.5px 2.5px #a29696;
+    -moz-box-shadow: 1px 3px 15.5px 2.5px #a29696;
+    box-shadow: 1px 3px 15.5px 2.5px #a29696;
+}
+.card  ul{
+    list-style:square;
+}
+
+form{
+
+    box-shadow: 2px 2px 5px grey;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    min-height: 500px;
+}
+.submit{
+    padding:10px 100px;
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+    margin:20px 0;
+}
+form div input{
+    border: none;
+    padding: 5px;
+    background-color: #dddddd;
+    box-shadow: 0 0 2px;
+    width: 380px;
+}
+.social a{
+    color: black;
+    font-weight: 700;
+}
+.cardtop{
+    display: flex;
+    justify-content: space-around;
+}
